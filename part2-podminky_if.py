@@ -23,9 +23,31 @@ if (choice == "6"):
     
 
 
+name = input("What is your name? \n")    
+
+password = input("What is your password? \n")
+
+
+if ((name=="Petr") and (choice=="4") and (password=="SecretPassword")) or ((name=="Honza") and (choice=="2") and (password=="Hello123")):
+    print("Access permitted")
+else:
+    print("Access denied")
+    
     
 
     
+age = int(input("How old are you? \n"))
+
+
+if (age > 80):
+    print("You are old.")
+    
+else:
+    print("You are young.")
+
+
+    
+
 
     
 
